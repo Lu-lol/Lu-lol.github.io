@@ -63,7 +63,7 @@ header p {
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
-    padding: 100px;
+    padding: 80px;
 }
 .modal-content{
     background-color: #70CC7B;
@@ -79,10 +79,17 @@ header p {
     animation-name: animatetop;
     animation-duration: 0.2s
 }
+.modal-content .img {
+    position: relative;
+}
 .modal-content .oal {
+    font-size: 27px;
+    font-family: 'Antonio', sans-serif;
+}
+.modal-content .oal p:first-child {
     position: absolute;
-
-    padding-top: 230px;
+    padding: 265px 0 0 70px;
+    margin: auto;
 }
 .close {
     color: grey;
