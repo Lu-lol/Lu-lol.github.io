@@ -70,7 +70,7 @@ header p {
     margin: 5% auto;
     border: 1px solid #888;
     width: 80%;
-    height: 80%;
+    height: 70%;
     position: relative;
     background-color: #70CC7B;
     padding: 25px;
@@ -107,13 +107,11 @@ header p {
     to {top: 0; opacity: 1}
 }
 /*----Section----*/
-section .art{
+section article{
+    padding: 9px;
+    margin: 10px 300px 0 15px;
     background-color: #B4BFBD;
-    margin: 18px 50px;
     text-align: center;
-}
-section article {
-    padding: 6px 12px;
 }
 /*---Footer----*/
 footer {
@@ -129,10 +127,13 @@ footer p{
     margin-right: 5cm;
 }
 /*----Aside----*/
-aside h2 {
-    text-align: right;
-    margin: 0%;
+.aside {
+    float:right;
+    margin: auto;
     padding-top: 20px;
     font-family: 'Nunito', sans-serif;
+}
+.aside h2 {
+    margin: auto;
     font-size: 35px;
 }
