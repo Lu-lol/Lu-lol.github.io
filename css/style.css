@@ -1,3 +1,11 @@
+html {
+    min-height: 100%;
+    position:relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
 /*----Header----*/
 header {
     color:black;
@@ -106,6 +114,29 @@ header p {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
 }
+/*----Aside----*/
+.aside {
+    position: relative;
+    float:right;
+    margin: 10px auto auto auto;
+    padding: 0 5.2cm 0 0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.aside h2 {
+    margin: 0;
+    font-size: 19px;
+}
+.aside-content {
+    margin:0;
+    padding:0;
+}
+.aside-content img {
+    width: 50px;
+}
+.aside-content p {
+    margin:0;
+}
 /*----Section----*/
 section article{
     padding: 9px;
@@ -115,7 +146,14 @@ section article{
 }
 /*---Footer----*/
 footer {
+    padding: 8px 0;
     background-color:#D3E0DE;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
 }
 footer p{
     margin: initial;
@@ -126,14 +164,6 @@ footer p{
     margin-left: 5cm;
     margin-right: 5cm;
 }
-/*----Aside----*/
-.aside {
-    float:right;
-    margin: auto;
-    padding-top: 20px;
-    font-family: 'Nunito', sans-serif;
-}
-.aside h2 {
-    margin: auto;
-    font-size: 35px;
+footer p i {
+    display: block;
 }
