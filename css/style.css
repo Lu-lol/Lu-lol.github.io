@@ -5,11 +5,12 @@ html {
 body {
     margin: 0;
     margin-bottom: 40px;
+    background-color: #053442;
 }
 /*----Header----*/
 header {
     color:black;
-    background-color: #4A7040;
+    background-color: #02181F;
 }
 header h1{
     font-family: 'Montserrat', sans-serif;
@@ -18,9 +19,10 @@ header h1{
     margin: auto;
     padding: 0%;
 }
+
 header p {
     font-family: 'Montserrat', sans-serif;
-    background-color: #4A7040;
+    background-color: #02181F;
     text-align: center;
     font-size: 28px;
     margin: auto;
@@ -28,7 +30,7 @@ header p {
 /*----Nav----*/
 .nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #02181F;
     position: sticky;
     position: -webkit-sticky;
     top:0;
@@ -46,19 +48,52 @@ header p {
     color: black;
 }
 .nav a.active {
-    background-color: #4A7040;
+    background-color: #031f27;
     color: white;
 }
-.nav .btn{
-    color:white;
-    background-color:#333;
-    float: right; 
-    border: none;
-    padding: 14px 18px 15px;
+/*----Section----*/
+section article{
+    padding: 9px;
+    margin: 10px 300px 0 15px;
+    background-color: #B4BFBD;
+    text-align: center;
 }
-.nav .btn:hover {
-    color:black;
+/*---Footer----*/
+footer {
+    padding: 8px 0;
+    background-color:black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+footer p{
+    margin: initial;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 12px;
+    color:white;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    font-size: 14px;
+}
+footer .btn {
+    all:unset;
+    font-size: 12px;
+    color:white;
+    cursor:pointer;
+    font-style: italic;
+    font-size: 14px;
+}
+footer .btn:hover{
+    color: rgb(160, 157, 157);
+    border-bottom:1px solid white;
+}
+footer a:hover{
     background-color: #ddd;
+    color: white;
 }
 .modal {
     display: none; 
@@ -87,18 +122,7 @@ header p {
     animation-name: animatetop;
     animation-duration: 0.2s
 }
-.modal-content .img {
-    position: relative;
-}
-.modal-content .oal {
-    font-size: 27px;
-    font-family: 'Antonio', sans-serif;
-}
-.modal-content .oal p:first-child {
-    position: absolute;
-    padding: 265px 0 0 70px;
-    margin: auto;
-}
+
 .close {
     color: grey;
     float: right;
@@ -113,57 +137,4 @@ header p {
 @keyframes animatetop {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
-}
-/*----Aside----*/
-.aside {
-    position: relative;
-    float:right;
-    margin: 10px auto auto auto;
-    padding: 0 5.2cm 0 0;
-    font-family: 'Nunito', sans-serif;
-    
-}
-.aside h2 {
-    margin: 0;
-    font-size: 19px;
-}
-.aside-content {
-    margin:0;
-    padding:0;
-}
-.aside-content img {
-    width: 50px;
-}
-.aside-content p {
-    margin:0;
-}
-/*----Section----*/
-section article{
-    padding: 9px;
-    margin: 10px 300px 0 15px;
-    background-color: #B4BFBD;
-    text-align: center;
-}
-/*---Footer----*/
-footer {
-    padding: 8px 0;
-    background-color:#D3E0DE;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-    margin-top: 15px;
-}
-footer p{
-    margin: initial;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-size: 12px;
-    color:#36342D;
-    margin-left: 5cm;
-    margin-right: 5cm;
-}
-footer p i {
-    display: block;
 }
