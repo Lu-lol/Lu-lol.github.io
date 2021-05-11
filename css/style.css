@@ -1,11 +1,21 @@
 html {
     min-height: 100%;
     position:relative;
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
     margin-bottom: 40px;
     background-color: #053442;
+}
+h3 {
+    color:white;
+    font-family: 'Nunito', sans-serif;
+    margin:0;
+    margin-top: 2%;
+    margin-left: 14%;
+    font-size: 33px;
+
 }
 /*----Header----*/
 header {
@@ -34,6 +44,7 @@ header p {
     position: sticky;
     position: -webkit-sticky;
     top:0;
+
 }
 .nav a{
     float: left;
@@ -54,7 +65,7 @@ header p {
 /*----Section----*/
 section article{
     padding: 9px;
-    margin: 10px 300px 0 15px;
+    margin: 3% 3% 1% 3%;
     background-color: #B4BFBD;
     text-align: center;
 }
@@ -106,16 +117,16 @@ footer a:hover{
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
-    padding: 80px;
+    padding: 50px;
 }
 .modal-content{
-    background-color: #70CC7B;
+    background-color: #123B4D;
     margin: 5% auto;
     border: 1px solid #888;
     width: 80%;
     height: 70%;
     position: relative;
-    background-color: #70CC7B;
+    background-color: #123B4D;
     padding: 25px;
     border: 1px solid #888;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
