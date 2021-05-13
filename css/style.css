@@ -1,3 +1,4 @@
+/*img = 220px x 229px default*/
 html {
     min-height: 100%;
     position:relative;
@@ -17,6 +18,17 @@ h3 {
     font-size: 33px;
     border-left: 5px solid #F0D600;
     padding-left: 1%;
+}
+.ti, .su, .au {
+    font-family: 'Nunito', sans-serif;
+}
+.au {
+    font-size: 21px;
+    font-weight: bold;
+}
+img {
+    height: 229px;
+    width: 220px;
 }
 /*----Header----*/
 header {
@@ -47,7 +59,6 @@ header p {
     position: sticky;
     position: -webkit-sticky;
     top:0;
-
 }
 .nav a{
     float: left;
@@ -72,7 +83,7 @@ section {
 section article{
     padding: 9px;
     margin: 3% 3% 1% 3%;
-    background-color: #B4BFBD;
+    background-color: #5b5b5b;
     text-align: center;
 }
 /*---Footer----*/
@@ -139,7 +150,6 @@ footer a:hover{
     animation-name: animatetop;
     animation-duration: 0.2s
 }
-
 .close {
     color: grey;
     float: right;
@@ -154,4 +164,22 @@ footer a:hover{
 @keyframes animatetop {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
+}
+.btn-text{
+    margin:0;
+    padding: 0;
+}
+.btn-text p:first-child, .p-b, .p-c {
+    margin: 0%;
+    padding: 0%;
+    display:inline;
+}
+.btn-text p:first-child {
+
+}
+.p-b {
+
+}
+.p-c {
+
 }
