@@ -1,0 +1,52 @@
+.re__container {
+    margin: 2% 0 3% 13%;
+}
+.op__container {
+    margin: 2% 0 3% 13%;
+}
+.re__container img{
+    width: 100px;
+    height: 100px;
+    margin-right: 2%;
+}
+.op__container img{
+    width: 100px;
+    height: 100px;
+    margin-right: 2%;
+}
+.re__container p,h2{
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+    position: absolute;
+}
+.re__container .au{
+    margin: .2% 0 0 0;
+    color: #a19d9d;
+}
+.re__container .ti {
+    margin: 1.9% 0 0 0;
+}
+.re__container .su {
+    margin: 4.6% 0 0 0;
+    font-size: 17px;
+    color: #555;
+}
+.op__container p,h2{
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+    position:absolute;
+}
+.op__container .au {
+    margin: .2% 0 0 0;
+    color: #a19d9d;
+}
+.op__container .ti {
+    margin: 1.9% 0 0 0;
+}
+.op__container .su {
+    margin: 4.6% 0 0 0;
+    font-size: 17px;
+    color: #555;
+}
