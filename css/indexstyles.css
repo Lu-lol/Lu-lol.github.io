@@ -1,3 +1,6 @@
+.re__container, .op__container {
+    z-index: 1;
+}
 .re__content, .op__content {
     margin: 2% 0 3% 13%;
 }
