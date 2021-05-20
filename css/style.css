@@ -1,4 +1,9 @@
-/*img = 220px x 229px default*/
+/*img = 220px x 229px default*//*also 115% height width*/
+*{
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
 html {
     min-height: 100%;
     position:relative;
